@@ -91,7 +91,7 @@
   <div class="actions"><a class="button primary" href="mailto:cristianbernal83@hotmail.com">✉ Enviar email</a><button class="button secondary" id="call-celebrate" type="button" aria-controls="phone-banner">☎ Llamar</button></div>
   <div class="phone-banner" id="phone-banner" role="status" aria-live="polite" hidden>
     <span class="phone-banner-icon" aria-hidden="true">🎉</span>
-    <div><strong>¡Gracias por comunicarte!</strong><p>Mi celular: <a href="tel:+541155046752">11 5504-6752</a></p></div>
+    <div><strong>¡Gracias por comunicarte!</strong><p>Mi celular: <a href="tel:+541155046752">11-5504-6752</a></p></div>
     <button class="copy-phone" id="copy-phone" type="button">Copiar número</button>
     <button class="close-banner" id="close-banner" type="button" aria-label="Cerrar banner">×</button>
   </div>
@@ -104,7 +104,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 const celebrateButton = document.getElementById('call-celebrate');
 const phoneBanner = document.getElementById('phone-banner');
 const confettiLayer = document.getElementById('confetti-layer');
-const phoneNumber = '11 5504-6752';
+const phoneNumber = '1155046752';
 celebrateButton.addEventListener('click', () => {
   phoneBanner.hidden = false;
   confettiLayer.replaceChildren();
